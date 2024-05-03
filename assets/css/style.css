@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.quotes {
+  width: 100%;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: #001d9c;
+  background-color: #d1faff;
+  border: 10px solid #96ffca;
+}
+
+.quotes p,
+.quotes h3 {
+  font-size: 1.5rem;
+}
+
+div .botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width:480px) {
+
+  .quotes p,
+  .quotes h3 {
+    font-size: 1rem;
+  }
+}
